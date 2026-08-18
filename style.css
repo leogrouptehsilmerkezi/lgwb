@@ -1,5 +1,5 @@
 :root{
-  --navy:#172746;--navy-deep:#0F1D36;--gold:#C8A45A;--white:#fff;--soft:#F5F7FA;
+  --navy:#04306d;--navy-deep:#04306d;--gold:#ecd240;--white:#fff;--soft:#F5F7FA;
   --text:#1a263b;--muted:#68748a;--green:#25D366;--line:#e5e9ef;
   --shadow:0 24px 60px rgba(15,29,54,.12);--radius:22px
 }
@@ -10,7 +10,7 @@ a{text-decoration:none;color:inherit}
 img{max-width:100%;display:block}
 .container{width:min(1160px,calc(100% - 40px));margin:auto}
 .site-header{position:sticky;top:0;z-index:1000;background:rgba(15,29,54,.94);backdrop-filter:blur(16px);border-bottom:1px solid rgba(255,255,255,.08)}
-.nav-wrap{height:82px;display:flex;align-items:center;justify-content:space-between;gap:30px}
+.nav-wrap{height:82px;display:flex;align-items:center;justify-content:space-between;gap:30px;color: #04306d;}
 .brand img{width:145px;height:auto;max-height:54px;object-fit:contain}
 .main-nav{display:flex;align-items:center;gap:27px;color:#dce4f1;font-size:14px;font-weight:600}
 .main-nav a{transition:.25s}
@@ -551,9 +551,9 @@ body {
   background-image:
     linear-gradient(
       90deg,
-      rgba(15, 29, 54, 0.96) 0%,
-      rgba(15, 29, 54, 0.82) 15%,
-      rgba(15, 29, 54, 0.45) 200%
+      rgba(4, 48, 109, 0.96) 0%,
+      rgba(4, 48, 109, 0.82) 15%,
+      rgba(4, 48, 109, 0.45) 100%
     ),
     url("assets/hero-bg.jpg");
 
